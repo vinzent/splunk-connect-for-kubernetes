@@ -144,7 +144,7 @@ jobs:
       - run:
           name: Update configurables to build artifacts
           command: |
-            .circleci/update_sck_config.sh
+            .circleci/update_sck_config_perf.sh
       - run:
           name: Build SCK artifacts
           command: |
