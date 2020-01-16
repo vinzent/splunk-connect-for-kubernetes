@@ -44,10 +44,10 @@ DATAGEN_PERF_CASES = [
        'deployment_name': 'perf-test-datagen',
        'namespace': 'default',
        'number_of_datagen': 20,
-       'message_count': 100000,
+       'message_count': 1000,
        'message_size': 256,
        'eps': 100,
-       'sleep_duration': 1200
+       'sleep_duration': 120
     },
     #{
     #     'deployment_name': 'perf-test-datagen',
