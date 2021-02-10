@@ -186,7 +186,7 @@ data:
     <label @CONCAT>
       # = filters for container logs =
       {{- if eq .Values.containers.logFormatType "cri" }}
-      <filter tail.containers.var.log.containers.*>
+      <filter tail.containers.var.log.containers.**>
         @type concat
         key log
         partial_key logtag
